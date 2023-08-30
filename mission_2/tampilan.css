@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    
+  }
+
+.column {
+    flex: 50%;
+    padding: 10px;    
+}
+
+.container {
+    display: flex;
+}
+  
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+  
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.input-container {
+    margin: 10px;
+}
+  
+li {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 70%; */
+    /* border: 1px solid #dbdbdb; */
+    background-color: #f5f5f5;
+    transition: 0.2s ease-in-out;
+}
+
+.harga {
+    margin-left: auto;
+}
+
+#total, #pajak, #totalBayar {
+    margin: auto auto auto auto;
+    padding-bottom: 15px; 
+    width: 70%;
+}
+  
+label {
+    font-weight: bold;
+}
+  
+#total-harga, #pajak-harga, #total-beli-pajak {
+    float: right;
+    font-weight: bold;
+}
+
+.cart {
+    border: solid #ffffff;
+}
+
+#cart-items {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.beli {
+    background-color: #35b64d;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.beli:hover {
+    background-color: #6ec351;
+    /* cursor: pointer; */
+}
+
+img {
+    width: 150px;
+    margin: 20px;
+}
